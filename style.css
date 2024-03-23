@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 2px;
+}
+
+.box{
+    background:bisque;
+    display: grid;
+    grid-template-columns:auto;
+    /* text-align: end; */
+}
+ul{
+    text-align: right;
+    padding: .5rem;
+}
+li{
+    display: inline-block;
+    margin-right: 10%;
+    list-style-type: none;
+
+}
+a{  
+     display: block;
+     /* border: 2px solid red; */
+     font-size: 1rem;
+     padding: 5px;
+     font-weight: bolder;
+     color: blueviolet;
+     text-decoration:none;
+    
+
+}
+a:hover{
+    background-color:blueviolet;
+    color: black;
+    border-radius: 10px;
+    transition: .5s;
+    text-decoration: underline;
+    display: block;
+}
+/* .container:nth-child(1){
+    display: grid;
+    text-align: center;
+    
+} */
+.box:nth-child(1){
+ display: grid;
+ align-items: center;
+ justify-content: center;
+ /* align-content: center; */
+}
+.ab{ 
+    min-height: 30vh;
+    background-color: #f0ffff;
+    background-image: url(road-1072821_1280.jpg);
+    /* background-image: linear-gradient(red, yellow ,pink ); */
+    background-repeat:;
+    background-size: cover;
+    
+}
+section h1{
+   font-size: 3rem;
+   color: #f0ffff;
+   background: green;
+   opacity:.5 ;
+   display:flex;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+}
+.ab:hover{
+     cursor: pointer;
+     transition: .8s;
+     background-position: bottom;
+}
+form{
+    margin: 1rem;
+    font-size: inherit;
+    font-size: 2rem;
+
+}
+input{
+    height: 25px;
+    width: 50%;
+}
